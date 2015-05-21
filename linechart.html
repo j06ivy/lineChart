@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linechart</title>
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="https://code.angularjs.org/1.1.0/angular.js"></script>
+    <script src="js/highstock.src.js"></script>
+    <script src="js/highcharts-ng.js"></script>
+    <script src="js/widget_config.js"></script>
+    <script src="js/linechart.js"></script>
+
+</head>
+<body>
+<div ng-app="chartApp">
+    <div ng-controller="myctrl">     
+            <highchart config="chartConfig"></highchart>   
+    </div>
+    <div ng-controller="myctrl2">     
+            <highchart config="chartConfig"></highchart>   
+    </div>
+</div>
+
+
+</body>
+</html>
